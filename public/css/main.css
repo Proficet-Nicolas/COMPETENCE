@@ -1,0 +1,307 @@
+.header {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    font-size: 40px;
+    background-color: lightgrey;
+    padding: 1%;
+    margin-bottom: 0.5%;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.formulaire>div,
+.formulaire>form {
+    background-color: lightgrey;
+    border: 1px solid black;
+    width: 40%;
+    padding: 1%;
+}
+
+.formulaire>div>div {
+    margin: 1%;
+}
+
+.collab>.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.collab>.navbar>.box {
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+    border: 1px solid black;
+    font-size: 17.5px;
+}
+
+.collab>.navbar>button,
+.collab>.navbar>a>button {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    color: blue;
+    width: 100%;
+}
+
+.collab>.navbar>.header2 {
+    display: flex;
+    width: 100%;
+    margin: none;
+    padding: none;
+    flex-direction: row;
+    align-items: right;
+    height: 50px;
+}
+
+.collab>.navbar>.header2>div {
+    color: red;
+    text-align: left;
+    width: 50%;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.collab>.navbar>.header2>div>img,
+.collab>.navbar>.header2>div>a>img {
+    width: auto;
+    height: 65%;
+}
+
+.center {
+    text-align: center;
+}
+
+.box_grise {
+    padding: 1%;
+    background-color: #b3acac;
+    text-align: center;
+}
+
+.collab {
+    display: flex;
+    flex-direction: row;
+}
+
+.collab>.mainscreen {
+    margin-left: 1%;
+    width: 100%;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.collab>.mainscreen>h1 {
+    text-align: center;
+}
+
+.collab>.mainscreen>input[type="text"],
+.right>input[type="text"] {
+    width: 80%;
+}
+
+
+/* Administrateur */
+
+.admin>.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.admin>.navbar>.box {
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+    border: 1px solid black;
+    font-size: 17.5px;
+}
+
+.admin>.navbar>button,
+.admin>.navbar>a>button {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    color: blue;
+    width: 100%;
+}
+
+.admin>.navbar>.header2 {
+    display: flex;
+    width: 100%;
+    margin: none;
+    padding: none;
+    flex-direction: row;
+    align-items: right;
+    height: 50px;
+}
+
+.admin>.navbar>.header2>div {
+    color: red;
+    text-align: left;
+    width: 50%;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.admin>.navbar>.header2>div>img,
+.admin>.navbar>.header2>div>a>img {
+    width: auto;
+    height: 65%;
+}
+
+.admin {
+    display: flex;
+    flex-direction: row;
+}
+
+.admin>.mainscreen {
+    margin-left: 1%;
+    width: 100%;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.admin>.mainscreen>.box_admin_arondie {
+    margin-left: 1%;
+    width: 85%;
+    padding: 1%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.admin>.mainscreen>.box_admin_table {
+    width: 90%;
+    padding: 1%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.admin>.mainscreen>.box_admin_table>table {
+    width: 90%;
+    padding: 1%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.admin>.mainscreen>h1 {
+    text-align: center;
+}
+
+.admin>.mainscreen>input[type="text"] {
+    width: 80%;
+}
+
+#centralDiv {
+    padding: 1%;
+    background-color: #b3acac;
+    text-align: center;
+    margin: 1%;
+}
+
+#centralDiv>div {
+    margin: 0.5%;
+}
+
+#url {
+    width: 60%;
+    height: 50%
+}
+
+table.situations {
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+tr.topLine {
+    background-color: gray;
+}
+
+tr.situations {
+    border-bottom: 1px solid black;
+}
+
+td.situations {
+    margin: 50px;
+    padding: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+
+td.left {
+    width: 10%
+}
+
+td.right {
+    width: 80%
+}
+
+.mainscreen>table {
+    width: 100%
+}
+
+.mainscreen>h2 {
+    text-align: center;
+}
+
+.collab>.mainscreen>.tableau {
+    margin: 1px;
+    border: solid black;
+}
+
+.tablecompetences>tr {
+    background: rgb(169, 230, 174);
+}
+
+.admin>.mainscreen>.box_admin_arondie {
+    display: flex;
+    justify-content: space-around;
+}
+
+.admin>.mainscreen>.box_admin_arondie_statistique {
+    margin-left: 1%;
+    width: 85%;
+    padding: 1%;
+    margin: auto;
+    /* margin-top: 3%; */
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.admin>.mainscreen>.box_admin_arondie_statistique_general {
+    margin-left: 1%;
+    width: 85%;
+    padding: 1%;
+    margin: auto;
+    /* margin-top: 3%; */
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    background-color: red;
+}
